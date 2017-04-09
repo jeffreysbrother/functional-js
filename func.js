@@ -38,6 +38,15 @@ doubleNumbers([1, 2, 3, 4]);
 
 // DECLARATIVE EXAMPLE
 function doubleNumbersTwo(numbers) {
-  return numbers.map(n => n * 2); 
+  return numbers.map(n => n * 2);
 }
 doubleNumbersTwo([1, 2, 3, 4]);
+
+
+// higher-order functions
+  // - can be assigned to variables
+  // - can be passed as arguments
+  // - can return other functions
+
+// closures allow for encapsulation
+// currying...
